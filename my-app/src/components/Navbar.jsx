@@ -10,14 +10,15 @@ function Navbar() {
         />
         <div>
           <input type="text" placeholder="searchProduct" />
-          <button >Search</button>
+          <button style={{backgroundColor:"white"}} >Search</button>
         </div>
         <div className="sign">
           <div> <a href="#">Sign In</a> </div>
-          <div> <a href="#">Order </a> </div>
-          <div> <a href="#">Cart</a></div>
+          <div> <a href="#">↶Order </a> </div>
+          <div> <a href="#">🛒Cart</a></div>
         </div>
       </div>
+
     </>
   );
 }

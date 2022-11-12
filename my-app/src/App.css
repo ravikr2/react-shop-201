@@ -3,7 +3,7 @@
 .navbar-hai {
   display: flex;
   width: 100%;
-  height: 10rem;
+  height: 5rem;
   border: 1px solid black;
   justify-content: space-around;
   align-items: center;
@@ -14,13 +14,60 @@
 }
 
 .navbar-hai img+div{
+  width: 500px;
+  height: 30px;
+  /* border: 1px solid black; */
+  /* border-radius:10px 10px 10px 20px */
+}
+
+.navbar-hai img+div input{
+  padding: 10px;
+  width: 400px;
+  height: 30px;
   border: 1px solid black;
-  border-radius:20px
+  border-radius:10px 0px 0px 10px
+}
+
+
+.navbar-hai img+div button{
+  background-color: brown;
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius:0px 1px 10px 0px
 }
 
 .sign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 250px;
+  height: 50px;
   display: flex;
   border: 1px solid yellow;
+  font-size: 20px;
   justify-content: space-between;
+}
+
+.nabar-down{
+  margin-top: 20px;
+}
+
+.blueheader{
+  margin-top: 10px;
+  width: 100%;
+  height: 4rem;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.blueheader div{
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.blueheader div:hover{
+  color: aqua;
 }
